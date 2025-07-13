@@ -166,3 +166,130 @@ tramp
 
 # Project specific
 # Add any project-specific patterns here
+
+# Testing and debugging files (development only)
+src/TestApp.tsx
+src/TestComponent.tsx
+src/SimpleTest.tsx
+src/main-test.tsx
+src/test-main.tsx
+src/components/FirebaseTestButton.tsx
+src/components/SimpleAuthTest.tsx
+src/utils/firebaseConfigChecker.ts
+
+# Development setup scripts
+scripts/setup-dev.js
+
+# Development and testing patterns
+**/test-*.tsx
+**/Test*.tsx
+**/debug-*.tsx
+**/Debug*.tsx
+**/*Test.tsx
+**/*Debug.tsx
+**/*Temp.tsx
+**/*temp.tsx
+src/temp/
+src/debug/
+src/testing/
+
+# Experimental and alternative implementations
+**/*Fixed.*
+**/*_new.*
+**/*_old.*
+**/*_backup.*
+**/*-backup.*
+**/*Alternative.*
+**/*Experimental.*
+src/MinimalApp.tsx
+src/context/SimpleVoiceContext.tsx
+src/context/VoiceContextFixed.tsx
+src/context/VoiceContext_new.tsx
+src/pages/HomePage-backup.tsx
+
+# Development utilities
+src/utils/*Test*
+src/utils/*Debug*
+src/utils/*Checker*
+
+# Backup and temporary files
+*.backup
+*.bak
+*.tmp
+*.temp
+.backup/
+backup/
+
+# Development logs and debugging
+debug.log
+development.log
+*.debug.log
+
+# Documentation and development guides (temporary)
+COMPLETE_VOICE_SYSTEM.md
+FIREBASE_SETUP.md
+GOOGLE_CLOUD_INTEGRATION.md
+VOICE_COMMANDS.md
+VOICE_INTEGRATION_README.md
+VOICE_INTENT_SYSTEM.md
+VOICE_MIGRATION_GUIDE.md
+
+# Workspace files
+*.code-workspace
+
+# Backup files
+*-backup.*
+*_backup.*
+*.backup.*
+
+# Example environment files
+.env.example
+.env.local.example
+.env.*.example
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+
+# Environment files (sensitive data)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.backup
+
+# Voice assistant cache
+voice-cache/
+tts-cache/
+stt-cache/
+
+# AI model cache
+ai-models/
+*.model
+*.weights
+
+# Audio files (temporary)
+*.wav
+*.mp3
+*.ogg
+*.webm
+temp-audio/
+
+# Voice training data (if any)
+voice-training/
+audio-samples/
+
+# Firebase private keys
+*-key.json
+service-account*.json
+
+# Generated TypeScript declarations
+*.d.ts.map
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/

@@ -22,6 +22,8 @@ export default {
       animation: {
         'pulse-ring': 'pulse-ring 1.5s ease-out infinite',
         'listening': 'listening 2s ease-in-out infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'wave': 'wave 1.5s linear infinite',
       },
       keyframes: {
         'pulse-ring': {
@@ -42,6 +44,22 @@ export default {
           '50%': {
             transform: 'scale(1.1)',
             opacity: '1',
+          },
+        },
+        'float': {
+          '0%, 100%': {
+            transform: 'translateY(0)',
+          },
+          '50%': {
+            transform: 'translateY(-10px)',
+          },
+        },
+        'wave': {
+          '0%': {
+            transform: 'translateX(0)',
+          },
+          '100%': {
+            transform: 'translateX(-100%)',
           },
         },
       },
